@@ -10,7 +10,7 @@
     /* border: none; */
     outline: none;
     width: 60%;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 .bi-trash {
@@ -29,6 +29,7 @@
 
 .checked {
     text-decoration:line-through;
+    background-color: rgb(122, 224, 190,0.5);
 }
 
 .checked .form-check-label{
@@ -41,7 +42,7 @@
 }
 
 .itemBackground {
-    background-color: #ebebebd5;
-    transition: ease .5s;
-    transform: scale(1.02);
+    transition: ease 0.3s;
+    transform: scale(1.01);
+    background-color: rgba(219, 251, 255, 0.973);
 }
